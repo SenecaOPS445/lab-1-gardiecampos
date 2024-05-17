@@ -1,28 +1,27 @@
-cat: /etc/redhat-release: No such file or directory
-test_0 (__main__.lab1a)
+test_0 (__main__.lab1a.test_0)
 [Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py ... FAIL
 
 ======================================================================
-FAIL: test_0 (__main__.lab1a)
+FAIL: test_0 (__main__.lab1a.test_0)
 [Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/lou/ops445/lab1/./CheckLab1.py", line 60, in test_0
+  File "/home/lgcampos/ops445/lab1/./CheckLab1.py", line 60, in test_0
     self.assertTrue(os.path.exists('./lab1a.py'), msg=error_output)
 AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.001s
+Ran 1 test in 0.002s
 
 FAILED (failures=1)
 OPS435 Lab Report - System Information for running ./CheckLab1.py
 =================================================================
-    User login name: lou
-    Linux system name: lgcampos
-    Linux system version: 
+    User login name: lgcampos
+    Linux system name: fedora
+    Linux system version: Fedora release 40 (Forty)
     Python executable: /usr/bin/python3
-    Python version: 3106
+    Python version: 3122
     OS Platform: linux
-    Working Directory: /home/lou/ops445/lab1
-    Start at: Fri May 10 14:43:36 2024
+    Working Directory: /home/lgcampos/ops445/lab1
+    Start at: Fri May 17 15:10:03 2024
 =================================================================
